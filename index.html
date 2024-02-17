@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div id="mainDiv">
+        <h1 id="title">Calculator</h1>
+        <p id="description">Evaluvate</p>
+    <table id="keyTable">
+        <tr><th colspan="4" id="result" >0</th></tr>
+        <tr><th colspan="4"><button type="button" class="btn btn-info"  onclick="clearCalc()" id="clear">Clear</button></th></tr>
+        <tr>
+            <td><button type="button" class="btn btn-info" value="1" onClick="getResult(this)" id="1">1</button></td>
+            <td><button type="button" class="btn btn-info" value="2" onClick="getResult(this)" id="2">2</button></td>
+            <td><button type="button" class="btn btn-info" value="3" onClick="getResult(this)" id="3">3</button></td>
+            <td><button type="button" class="btn btn-info" value="/" onClick="getResult(this)">/</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-info" value="4" onClick="getResult(this)">4</button></td>
+            <td><button type="button" class="btn btn-info" value="5" onClick="getResult(this)">5</button></td>
+            <td><button type="button" class="btn btn-info" value="6" onClick="getResult(this)">6</button></td>
+            <td><button type="button" class="btn btn-info" value="*" onClick="getResult(this)">*</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-info" value="7" onClick="getResult(this)">7</button></td>
+            <td><button type="button" class="btn btn-info" value="8" onClick="getResult(this)">8</button></td>
+            <td><button type="button" class="btn btn-info" value="9" onClick="getResult(this)">9</button></td>
+            <td><button type="button" class="btn btn-info" value="-" onClick="getResult(this)" id="subtract">-</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="btn btn-info" value="." onClick="getResult(this)">.</button></td>
+            <td><button type="button" class="btn btn-info" value="0" onClick="getResult(this)">0</button></td>
+            <td><button type="button" class="btn btn-info" value="=" onClick="getResult(this)" id="equal">=</button></td>
+            <td><button type="button" class="btn btn-info" value="+" onClick="getResult(this)" id="add">+</button></td>
+        </tr>
+        <tr></tr>
+    </table>
+    </div>
+</body>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</html>
