@@ -39,6 +39,6 @@ button{
     text-overflow: ellipsis;
     overflow:hidden;
     white-space: nowrap;
-    max-width: 420px;
+    max-width: 100px;
     box-shadow: 0 10px 10px -3px #324b50 inset;
 }
